@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD3D1D0129BAFB0800A3E602 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = FD3D1D0029BAFB0800A3E602 /* Model */; };
 		FD7C9D91296B69BF00DB9DCF /* ScrutnyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7C9D90296B69BF00DB9DCF /* ScrutnyApp.swift */; };
 		FD7C9D93296B69BF00DB9DCF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7C9D92296B69BF00DB9DCF /* ContentView.swift */; };
 		FD7C9D95296B69BF00DB9DCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD7C9D94296B69BF00DB9DCF /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD3D1D0029BAFB0800A3E602 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
 		FD7C9D8D296B69BF00DB9DCF /* Scrutny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrutny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD7C9D90296B69BF00DB9DCF /* ScrutnyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrutnyApp.swift; sourceTree = "<group>"; };
 		FD7C9D92296B69BF00DB9DCF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				FD7C9D90296B69BF00DB9DCF /* ScrutnyApp.swift */,
 				FD7C9D92296B69BF00DB9DCF /* ContentView.swift */,
+				FD3D1D0029BAFB0800A3E602 /* Model */,
 				FD7C9D94296B69BF00DB9DCF /* Assets.xcassets */,
 				FD7C9D99296B69BF00DB9DCF /* Persistence.swift */,
 				FD7C9D9E296B69BF00DB9DCF /* Info.plist */,
@@ -239,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD3D1D0129BAFB0800A3E602 /* Model in Resources */,
 				FD7C9D98296B69BF00DB9DCF /* Preview Assets.xcassets in Resources */,
 				FD7C9D95296B69BF00DB9DCF /* Assets.xcassets in Resources */,
 			);
@@ -442,9 +446,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Zayce.Scrutny;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -471,9 +478,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Zayce.Scrutny;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
